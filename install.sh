@@ -15,4 +15,10 @@ NEW_PATH="export PATH=\"\$PATH:$CONFLUENT_BIN\""
 
 echo "$NEW_PATH" >> ~/.zshrc
 echo "$NEW_PATH" >> ~/.bashrc
-eval "$NEW_PATH"
+
+echo ""
+echo "Please open a new terminal, or run the following in the existing one:"
+echo ""
+echo "    $NEW_PATH"
+echo ""
+echo "Enjoy!!!"
