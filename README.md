@@ -6,7 +6,7 @@ Installation:
 curl -s "https://raw.githubusercontent.com/sauljabin/kafka-cli-installer/main/install.sh" | bash
 ```
 
-List of commands available:
+List of commands:
 ```text
 connect-distributed                 kafka-rest-start
 connect-mirror-maker                kafka-rest-stop
