@@ -34,10 +34,10 @@ kafka-metadata-quorum               schema-registry-run-class
 kafka-metadata-shell                schema-registry-start
 kafka-mirror-maker                  schema-registry-stop
 kafka-preferred-replica-election    schema-registry-stop-service
-kafka-producer-perf-test            zookeeper-security-migration
-kafka-protobuf-console-consumer     zookeeper-server-start
-kafka-protobuf-console-producer     zookeeper-server-stop
-kafka-reassign-partitions           zookeeper-shell
-kafka-replica-verification
+kafka-producer-perf-test            trogdor
+kafka-protobuf-console-consumer     zookeeper-security-migration
+kafka-protobuf-console-producer     zookeeper-server-start
+kafka-reassign-partitions           zookeeper-server-stop
+kafka-replica-verification          zookeeper-shell
 kafka-rest-run-class
 ```
