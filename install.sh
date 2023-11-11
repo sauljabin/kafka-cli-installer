@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 CONFLUENT_VERSION="7.5"
 CONFLUENT_FULL_VERSION="7.5.2"
 CONFLUENT_URL="http://packages.confluent.io/archive/$CONFLUENT_VERSION/confluent-community-$CONFLUENT_FULL_VERSION.zip"
